@@ -5,6 +5,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'python --version'
+		sh 'pip3 --version'
+		sh 'echo hello, ali'
+		sh 'pip3 install tk'
+
             }
         }
     }
